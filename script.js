@@ -65,8 +65,8 @@ function output( txt ) {
 		var context = canvas.getContext( '2d' );
 
 		var gradient = context.createLinearGradient( 0, 0, 0, canvas.height );
-		gradient.addColorStop(0, "#000000");
-		gradient.addColorStop(0.5, "#474747");
+		gradient.addColorStop(0, "#00AAFF");
+		gradient.addColorStop(0.5, "#3D5865");
 
 		context.fillStyle = gradient;
 		context.fillRect(0, 0, canvas.width, canvas.height);
